@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: genesys
+    description: 'Data from contact center genesys cloud, brought in by an EL process.'
+    database: SANDBOX
+    schema: DBT
+    tables:
+      - name: raw_genesys__conversation_detail
+      - name: raw_genesys__ref_presence
+

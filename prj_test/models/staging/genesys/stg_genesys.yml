@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_genesys__conversation_detail
+  - name: stg_genesys__ref_presence
+    columns:
+      - name: presenceId
+        tests:
+          - not_null
